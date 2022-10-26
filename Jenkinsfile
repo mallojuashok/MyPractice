@@ -4,9 +4,8 @@ pipeline{
          stage('Vm Create'){
             steps{
                 sh 'chmod 777 bin.sh'
-                sh './bin.sh'
-
-            }
+                sh 'bin.sh'
+             }
         }
     }
 }
